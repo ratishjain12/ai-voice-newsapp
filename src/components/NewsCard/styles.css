@@ -1,0 +1,30 @@
+.media{
+    height:16rem;
+    width: 100%;
+    object-fit: contain;
+}
+.title{
+    margin:0;
+    padding: 0;
+    text-align:left;
+    margin: 0;
+    overflow: hidden;
+    font-size: larger;
+    text-decoration: azure;
+     text-overflow:ellipsis;
+    display: -webkit-box;
+      /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.body{
+    margin: 0;
+    overflow: hidden;
+    font-size: larger;
+    text-decoration: azure;
+     text-overflow: ellipsis;
+    display: -webkit-box;
+      /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
