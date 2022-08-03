@@ -1,6 +1,6 @@
 import React ,{useEffect,useState} from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
-import './app.css';
+import './App.css';
 import NewsCards from './components/NewsCards/NewsCards';
 const App = () => {
   const [newsArticles, setNewsArticles] = useState([]);
